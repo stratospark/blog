@@ -1,0 +1,9 @@
+Title: Deep Learning, Applied. Project #1
+Slug: deep-learning-applied-food-classification-deep-learning-keras
+Date: 2016-01-22 12:00:00
+Category: programming
+Tags: python, deep learning, keras
+Summary: **Food Classification with Deep Learning in Keras.** <br/><br/>Work with a moderately-sized dataset of ~100,000 images and train a Convolutional Neural Network to classify the images into one of 101 possible food classes. Side excursions into accelerating image augmentation with multiprocessing, as well as visualizing the performance of our classifier.
+
+
+

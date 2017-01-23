@@ -3,8 +3,23 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Patrick Rodriguez'
-SITENAME = 'Stratospark'
+SITENAME = 'stratospark'
 SITEURL = ''
+SITETITLE = 'stratospark'
+SITESUBTITLE = 'programming for fun.'
+SITEDESCRIPTION = 'programming for fun.'
+SITELOGO = 'images/avatar.jpg'
+
+BROWSER_COLOR = '#333'
+ROBOTS = 'index, follow'
+
+CC_LICENSE = {
+    'name': 'Creative Commons Attribution-ShareAlike',
+    'version': '4.0',
+    'slug': 'by-sa'
+}
+
+COPYRIGHT_YEAR = 2017
 
 PATH = 'content'
 
@@ -19,17 +34,28 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+MAIN_MENU = True
+
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = ()
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('github', 'https://github.com/stratospark'),
+          ('twitter', 'https://twitter.com/stratospark'))
 
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
+
+MARKUP = ('md', 'ipynb')
+
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['ipynb.markup']
+
+THEME = 'flex'
+
+IPYNB_IGNORE_CSS = True
+IPYNB_USE_META_SUMMARY = True
+
+DISQUS_SITENAME = "stratospark"

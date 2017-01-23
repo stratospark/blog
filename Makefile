@@ -14,8 +14,8 @@ FTP_TARGET_DIR=/
 
 SSH_HOST=stratospark.com
 SSH_PORT=22
-SSH_USER=root
-SSH_TARGET_DIR=/var/www
+SSH_USER=stratosp
+SSH_TARGET_DIR=~/www/blog
 
 S3_BUCKET=my_s3_bucket
 
