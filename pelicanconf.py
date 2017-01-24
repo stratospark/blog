@@ -9,7 +9,7 @@ SITETITLE = 'stratospark'
 SITESUBTITLE = 'programming for fun.'
 SITEDESCRIPTION = 'programming for fun.'
 SITELOGO = 'images/avatar.jpg'
-FAVICON = 'favicon.ico'
+FAVICON = 'images/favicon.ico'
 
 BROWSER_COLOR = '#333'
 ROBOTS = 'index, follow'
