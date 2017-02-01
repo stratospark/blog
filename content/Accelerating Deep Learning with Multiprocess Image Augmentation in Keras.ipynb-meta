@@ -1,0 +1,6 @@
+Title: AI Tool Building 
+Slug: multiprocess-image-augmentation-keras
+Date: 2017-02-01 12:00:00
+Category: programming
+Tags: python, deep learning, keras
+Summary: **Accelerating Deep Learning with Multiprocess Image Augmentation in Keras** <br/><br/>By adding multiprocessing support to Keras ImageDataGenerator, benchmarking on a 6-core i7-6850K and 12GB TITAN X Pascal: 3.5x speedup of training with image augmentation on in memory datasets, 3.9x speedup of training with image augmentation on datasets streamed from disk.
