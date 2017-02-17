@@ -1,0 +1,7 @@
+Title: Fun without Servers, Part 1
+Slug: secure-serverless-file-uploads-with-aws-lambda-s3-zappa
+Date: 2017-02-16 12:00:00
+Category: programming
+Tags: python, lambda, zappa, aws, javascript
+Summary: **Secure 'Serverless' File Uploads with AWS Lambda, S3, and Zappa** <br/><br/>Deploy a Python-based Zappa microservice onto AWS Lambda to facilitate direct browser to S3 file uploads. A React-based Fine Uploader component is hosted on S3. All traffic is encrypted (for free) with HTTPS/SSL!
+
