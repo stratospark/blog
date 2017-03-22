@@ -38,7 +38,9 @@ AUTHOR_FEED_RSS = None
 MAIN_MENU = True
 
 # Blogroll
-LINKS = ()
+LINKS = (('#1: Training Food Classifier with Keras/Tensorflow', '/deep-learning-applied-food-classification-deep-learning-keras.html'),
+         ('#2: Multiprocess Image Augmentation', '/multiprocess-image-augmentation-keras.html'),
+         ('#3: Serverless Uploads with AWS Lambda', '/secure-serverless-file-uploads-with-aws-lambda-s3-zappa.html'))
 
 # Social widget
 SOCIAL = (('github', 'https://github.com/stratospark'),
